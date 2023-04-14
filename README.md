@@ -31,7 +31,7 @@ yarn add cdk-apprunner-metrics
 import { AppRunnerMetrics } from "cdk-apprunner-metrics";
 ```
 
-3. Instantiate the AppRunnerAutoscaling construct in your AWS CDK stack and provide the required parameters:
+3. Instantiate the CfnService construct in your AWS CDK stack and provide the required parameters:
 
 ```ts
 const service = new apprunner.CfnService(this, "AppRunnerService", {
@@ -40,7 +40,7 @@ const service = new apprunner.CfnService(this, "AppRunnerService", {
 });
 ```
 
-4. Once do that, get the metric you desire by doing (here we list all examples):
+4. Get the metric you desire:
 
 ```ts
 const http2xxCountMetric = AppRunnerMetrics.http2xxResponseCount(service);
