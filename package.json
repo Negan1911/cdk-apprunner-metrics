@@ -1,0 +1,19 @@
+{
+  "name": "cdk-apprunner-metrics",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "repository": "https://github.com/Negan1911/cdk-apprunner-metrics.git",
+  "author": "Nahuel Veron <nahuelav96@gmail.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "files": ["dist"],
+  "keywords": ["AppRunner", "Metrics", "CDK"],
+  "devDependencies": {
+    "aws-cdk-lib": "^2.74.0",
+    "constructs": "^10.1.309",
+    "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "aws-cdk-lib": "^2.69.0"
+  }
+}
