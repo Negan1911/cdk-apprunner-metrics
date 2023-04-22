@@ -1,6 +1,6 @@
 {
   "name": "cdk-apprunner-metrics",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "main": "dist/index.js",
   "repository": "https://github.com/Negan1911/cdk-apprunner-metrics.git",
   "author": "Nahuel Veron <nahuelav96@gmail.com>",
