@@ -54,3 +54,10 @@ const concurrencyMetric = AppRunnerMetrics.concurrency(service);
 ```
 
 5. You can use your metrics on whatever place you like.
+
+6. You can also reference log groups for set up alarms if you like:
+
+```ts
+const svcLogGroup = AppRunnerMetrics.serviceLogGroup(this, `ServiceLogGroup`, service);
+const appLogGroup = AppRunnerMetrics.applicationLogGroup(this, `AppLogGroup`, service);
+```
